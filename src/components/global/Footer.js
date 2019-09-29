@@ -7,7 +7,7 @@ const Footer = (props)=>{
         <Fragment>
             <div className="ctr-footer">
                 <div className="footer">
-                    asass
+                    <h6>Vidal De Los Santos &reg;</h6>
                 </div>
             </div>
         </Fragment>

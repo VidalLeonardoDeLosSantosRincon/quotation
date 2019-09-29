@@ -1,0 +1,53 @@
+
+.ctr-loading{
+    padding:5px;
+    height:100vh;
+    width:100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctr-loading .ctr-loading-img-box{
+    padding:10px;
+    background:linear-gradient(45deg,orangered,orange);
+    height:160px;
+    width:160px;
+    border-radius: 100%;
+    box-sizing:border-box;
+    border:6px solid orange;
+    box-shadow:1px 5px 5px rgba(0, 0, 0, 0.2);
+    margin:0 0 15px 0;
+    
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.ctr-loading .ctr-loading-img-box #icon-loading{
+    height:100%;
+}
+
+.ctr-loading .ctr-loading-img-box #icon-loading{
+    animation-duration: 4s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      transform:rotateZ(30deg);
+      
+    }
+  
+    to {
+      margin-left: -100%;
+      transform:rotateZ(-30deg);
+      
+    }
+  }

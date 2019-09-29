@@ -1,0 +1,11 @@
+.ctr-footer{
+
+}
+
+.ctr-footer .footer{
+    height:100px;
+    width:100%;
+    padding:10px 25px;
+    box-sizing: border-box;
+    background: pink;
+}

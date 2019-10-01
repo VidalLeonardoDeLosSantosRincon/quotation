@@ -1,11 +1,54 @@
 .ctr-header{
-
 }
 
 .ctr-header .header{
     height:50px;
     width:100%;
     padding:10px 25px;
+    color:gray;
     box-sizing: border-box;
-    background: pink;
+    background: #212F3C;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ctr-header .header #logo-box img{
+    height:50px;
+}
+
+.ctr-header .header #menu-box {
+    background: transparent;
+    padding:5px;
+    box-sizing: border-box;
+}
+
+.ctr-header .header #menu-box #menu{
+    background: transparent;
+    list-style: none;
+    padding:5px 25px;
+    box-sizing: border-box;
+    width:300px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ctr-header .header #menu-box #menu a{
+    color:gray;
+    text-decoration: none;
+}
+
+.ctr-header .header #menu-box #menu .menu-item{
+    display: inline-block;
+    background: transparent;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    border-bottom:2px solid transparent;
+}
+
+.ctr-header .header #menu-box #menu .menu-item:hover{
+    border-bottom:2px solid orange;
 }
